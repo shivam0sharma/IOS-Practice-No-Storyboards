@@ -12,6 +12,8 @@
 		40C9FD961ED8B9FB005EAB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C9FD951ED8B9FB005EAB7D /* Assets.xcassets */; };
 		40C9FD991ED8B9FB005EAB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C9FD971ED8B9FB005EAB7D /* LaunchScreen.storyboard */; };
 		40C9FDA11ED8DDFD005EAB7D /* YellowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C9FDA01ED8DDFD005EAB7D /* YellowVC.xib */; };
+		40C9FDA71ED8E19A005EAB7D /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C9FDA51ED8E19A005EAB7D /* BlueVC.swift */; };
+		40C9FDA81ED8E19A005EAB7D /* BlueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C9FDA61ED8E19A005EAB7D /* BlueVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		40C9FD981ED8B9FB005EAB7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40C9FD9A1ED8B9FB005EAB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C9FDA01ED8DDFD005EAB7D /* YellowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowVC.xib; sourceTree = "<group>"; };
+		40C9FDA51ED8E19A005EAB7D /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
+		40C9FDA61ED8E19A005EAB7D /* BlueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				40C9FD901ED8B9FB005EAB7D /* YellowVC.swift */,
+				40C9FDA51ED8E19A005EAB7D /* BlueVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				40C9FDA01ED8DDFD005EAB7D /* YellowVC.xib */,
+				40C9FDA61ED8E19A005EAB7D /* BlueVC.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C9FDA81ED8E19A005EAB7D /* BlueVC.xib in Resources */,
 				40C9FDA11ED8DDFD005EAB7D /* YellowVC.xib in Resources */,
 				40C9FD991ED8B9FB005EAB7D /* LaunchScreen.storyboard in Resources */,
 				40C9FD961ED8B9FB005EAB7D /* Assets.xcassets in Resources */,
@@ -163,6 +170,7 @@
 			files = (
 				40C9FD911ED8B9FB005EAB7D /* YellowVC.swift in Sources */,
 				40C9FD8F1ED8B9FB005EAB7D /* AppDelegate.swift in Sources */,
+				40C9FDA71ED8E19A005EAB7D /* BlueVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

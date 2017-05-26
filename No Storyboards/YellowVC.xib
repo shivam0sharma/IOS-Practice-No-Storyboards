@@ -18,8 +18,25 @@
         <view contentMode="scaleToFill" id="E3G-Im-kX5">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1f-qG-F0Z">
+                    <rect key="frame" x="142" y="318" width="91" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="WbU-hp-qA5"/>
+                        <constraint firstAttribute="width" constant="91" id="h0T-Cd-7Kp"/>
+                    </constraints>
+                    <state key="normal" title="Go To Blue"/>
+                    <connections>
+                        <action selector="loadBlueView:" destination="-1" eventType="touchUpInside" id="gCa-HO-5lW"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="25" y="47"/>
+            <constraints>
+                <constraint firstItem="y1f-qG-F0Z" firstAttribute="centerY" secondItem="E3G-Im-kX5" secondAttribute="centerY" id="VAg-ql-AHM"/>
+                <constraint firstItem="y1f-qG-F0Z" firstAttribute="centerX" secondItem="E3G-Im-kX5" secondAttribute="centerX" id="oWX-qb-Ajl"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="46.5"/>
         </view>
     </objects>
 </document>
